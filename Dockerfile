@@ -1,6 +1,6 @@
 # Dockerfile to create springmvc-mysql-blog docker image
 # Base image
-FROM centos:latest
+FROM centos:7
 
 # install tools
 RUN yum install git java-1.8.0-openjdk-devel maven -y
