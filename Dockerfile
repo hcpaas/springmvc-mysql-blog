@@ -3,6 +3,7 @@
 FROM centos:7
 
 # install tools
+RUN yum update -y
 RUN yum install git java-1.8.0-openjdk-devel maven -y
 
 # install tomcat
